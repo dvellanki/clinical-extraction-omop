@@ -1,0 +1,20 @@
+[project]
+name = "clinical-extraction-omop"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Divya Vellanki",email = "divya.vellanki94@gmail.com"}
+]
+requires-python = ">=3.12"
+dependencies = [
+    "pyarrow (>=24.0.0,<25.0.0)",
+    "pandas (>=3.0.3,<4.0.0)",
+    "pydantic (>=2.13.4,<3.0.0)",
+    "openai (>=2.40.0,<3.0.0)",
+    "psycopg2-binary (>=2.9.12,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
